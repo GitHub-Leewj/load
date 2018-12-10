@@ -21,6 +21,7 @@
 		window.opener.location = `https://blog.csdn.net/dogfights/phoenix/article/digg?ArticleId=${id}`
 		setTimeout(() => {
     		window.opener.location = `https://blog.csdn.net/Dogfights/article/details/${id}`
+		console.log(getQueryVariable("url"));
     		window.location.href = getQueryVariable("url");
 		}, 800)
   	</script>
